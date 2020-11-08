@@ -1,0 +1,184 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+  h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+.port-slash{
+  color: #ffff3d;
+
+}
+
+.download-button{
+  width: 12rem;
+}
+.icon-resume{
+  color: white;
+}
+.hero-image{
+ position: relative;
+ height: 1000px;
+ overflow: hidden;
+  background-image: url("image/background-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.heros-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight:bold;
+
+
+}
+.heros-container h1{
+  font-size: 84px;
+  letter-spacing: 0.2rem;
+  margin: 0;
+
+}
+.heros-container h1 span{
+  border: 16px solid  rgb(255,255,0,0.5);
+  padding: 20px 14px;
+  display: inline-block;
+  text-shadow: 0 0 10px black;
+}
+.des{
+  margin: 20px;
+  display: block;
+  font-size: 26px;
+  text-shadow: 0 0 10px black;
+}
+
+#about-me{
+  margin-top: 5rem;
+}
+.about-heading{
+  border-left: solid;
+  border-width: 1rem;
+  border-color: #FFFF00;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  font-size: 2.5rem;
+  font-weight:600;
+}
+
+.about-content{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+.about-section{
+  padding: 0 7% 0 10%;
+  text-align: left;
+}
+.bit-img{
+  padding-bottom: 10%;
+  padding-left: 16%;
+}
+.icon-social{
+  padding-top: 5% ;
+  padding-left: 10%;
+  font-size: 3rem;
+  color: black;
+}
+.icon-resume{
+  padding-right: 5%;
+}
+#tools-technology{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #263238;
+  color: #FFFFFF;
+
+}
+.tandtech{
+  border-left: solid;
+  border-right: solid;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 1rem;
+  border-color: #FFFF00;
+  font-size: 2.5rem;
+  font-weight:600;
+}
+.icon-container{
+  width: 100%;
+  padding-top: 5%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+.tools-icon{
+  padding-top: 7% ;
+  align-content: center;
+  align-self: center;
+}
+.icon-size{
+  padding-bottom: 5%;
+  width: auto;
+}
+#projects{
+  margin-top:5%;
+}
+.card-section{
+  padding-top: 6%;
+  padding-bottom: 6%;
+  align-content: center;
+  align-self: center;
+
+}
+
+.project-heading{
+  border-left: solid;
+  border-right: solid;
+  display: inline-block;
+
+  border-width: 1rem;
+  border-color: #FFFF00;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2.5rem;
+  font-weight:600;
+
+}
+.card-ticket{
+  margin: 2rem;
+  text-align: left;
+}
+.card-header{
+  background-color: #263238;
+  color: white;
+}
+.card-footer{
+  background-color: #263238;
+  color: white;
+  padding-bottom: 1rem;
+
+}
+#footer{
+  background-color: #263238;
+  color: #FFFFFF;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+.insta-fb{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: white;
+  font-size: 1.2rem;
+}
