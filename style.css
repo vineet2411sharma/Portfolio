@@ -5,6 +5,7 @@ body{
   margin:0 ;
   padding: 0;
   overflow-x: hidden;
+
 }
   h1,h2,h3,h4,h5,h6{
     font-family: Montserrat;
@@ -190,6 +191,8 @@ body{
   .bitemoji{
     width: 50%;
     padding-top: 2rem;
+    align-items: center;
+    padding-right: 2rem;
   }
 
 }
