@@ -161,6 +161,10 @@ body{
   font-weight:600;
 
 }
+.project-glance{
+  font-weight: lighter;
+  font-size: 1rem;
+}
 .card-ticket{
   margin: 2rem;
   text-align: left;
