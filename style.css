@@ -1,6 +1,10 @@
 body{
   font-family: Montserrat;
   text-align: center;
+  width: 100%;
+  margin:0 ;
+  padding: 0;
+  overflow-x: hidden;
 }
   h1,h2,h3,h4,h5,h6{
     font-family: Montserrat;
@@ -26,6 +30,7 @@ body{
   background-position: center;
   background-size: cover;
 
+
 }
 
 .heros-container{
@@ -50,13 +55,12 @@ body{
   border: 16px solid  rgb(255,255,0,0.5);
   padding: 20px 14px;
   display: inline-block;
-  text-shadow: 0 0 10px black;
 }
 .des{
   margin: 20px;
   display: block;
   font-size: 26px;
-  text-shadow: 0 0 10px black;
+
 }
 
 #about-me{
@@ -181,4 +185,16 @@ body{
   padding-right: .5rem;
   color: white;
   font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .bitemoji{
+    width: 50%;
+    padding-top: 2rem;
+  }
+
+}
+@media (max-width: 767px) {
+  .projects {
+    text-align: center;
+  }
 }
